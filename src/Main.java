@@ -9,8 +9,13 @@ public class Main {
         Author Tolstoy = new Author("Lev", "Tolstoy");
         Book warAndPeace = new Book("War and Peace", 1873, Tolstoy);
 
-        System.out.println("beautyAndTheBeast = " + beautyAndTheBeast);
-        System.out.println("warAndPeace = " + warAndPeace);
+        beautyAndTheBeast.setPublished(1756);
+        System.out.println();
+
+        System.out.println("Название: " + beautyAndTheBeast.getName() + " Автор: " + DeBeamount.getNameAuthor() + " " + DeBeamount.getSurnameAuthor() + " Год издания: " + beautyAndTheBeast.getPublished());
+        System.out.println();
+        System.out.println("Название: " + warAndPeace.getName() + " Автор: " + Tolstoy.getNameAuthor() + " " + Tolstoy.getSurnameAuthor() + " Год издания: " + warAndPeace.getPublished());
+
     }
 
 }
